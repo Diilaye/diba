@@ -52,7 +52,7 @@ const Footer = () => {
   
   // Programmes actuels (normalement viendraient d'une API ou du contexte)
   const programmes = [
-    { id: '3', name: 'Sama Achat Groupé 3 - Loulu Sindiane' , link: '/programmes/3' },
+    { id: '3', name: 'Sama Achat Groupé 3 - Louly Sindiane' , link: '/programmes/3' },
     { id: '1', name: 'Sama Achat Groupé 1 - Rufisque' , link: '' },
     { id: '2', name: 'Sama Achat Groupé 2 - Rufisque' , link: '' },
     { id: '4', name: 'Sama Achat Groupé 4 - Kaolack' , link: '' },

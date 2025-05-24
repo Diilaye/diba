@@ -66,11 +66,11 @@ const ClientPortal = () => {
       setPrograms([
         {
           id: 'prog3',
-          name: 'Sama Achat Groupé 3 - Loulu Sindiane',
+          name: 'Sama Achat Groupé 3 - Louly Sindiane',
           status: 'En cours',
           progress: 65,
           nextPayment: '15/06/2025',
-          location: 'Loulu Sindiane, Mbour',
+          location: 'Louly Sindiane, Mbour',
           totalAmount: '17 992 968 FCFA',
           paidAmount: '11 695 429 FCFA',
           remainingAmount: '6 297 539 FCFA',

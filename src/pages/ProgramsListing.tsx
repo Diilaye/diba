@@ -26,10 +26,11 @@ import {
 const programsData = [
   {
     id: '3',
-    title: 'Sama Achat Groupé 3 - Loulu Sindiane',
+    link: '/programmes/3',
+    title: 'Sama Achat Groupé 3 - Louly Sindiane',
     subtitle: 'Communauté durable et innovante',
     location: {
-      city: 'Loulu Sindiane, Mbour',
+      city: 'Louly Sindiane, Mbour',
       region: 'Thiès',
       country: 'Sénégal',
       coordinates: '14.4167° N, 16.9667° W',
@@ -51,7 +52,7 @@ const programsData = [
     timing: {
       launchDate: 'Janvier 2024',
       currentPhase: 'Phase 1 sur 2',
-      completionDate: 'Décembre 2026',
+      completionDate: 'Juin 2026',
       nextMilestone: 'Installation énergie solaire: Août 2025'
     },
     community: {
@@ -84,6 +85,7 @@ const programsData = [
   },
   {
     id: 'sama-achat-groupe-1-rufisque',
+    link: '',
     title: 'Sama Achat Groupé 1 - Rufisque',
     subtitle: 'Premier programme pilote - COMPLET',
     location: {
@@ -142,6 +144,7 @@ const programsData = [
   },
   {
     id: 'sama-achat-groupe-2-thies-nord',
+    link: '',
     title: 'Sama Achat Groupé 2 - Thiès Nord',
     subtitle: 'Expansion vers l\'intérieur - COMPLET',
     location: {
@@ -196,64 +199,6 @@ const programsData = [
       'https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg'
     ],
     tags: ['Achat Groupé', 'Formation', 'COMPLET', 'Collectif'],
-    highlighted: false
-  },
-  {
-    id: 'sama-achat-groupe-4-kaolack-preview',
-    title: 'Sama Achat Groupé 4 - Kaolack',
-    subtitle: 'Bientôt disponible - Carrefour commercial',
-    location: {
-      city: 'Périphérie de Kaolack',
-      region: 'Kaolack',
-      country: 'Sénégal',
-      coordinates: '14.1500° N, 16.0700° W',
-      distanceFromCity: '8 km du marché central'
-    },
-    price: {
-      base: 14500000,
-      monthly: 260000,
-      initialDeposit: 1800000,
-      financing: true,
-      pricePer: 'parcelle de 250m²'
-    },
-    availability: {
-      status: 'Bientôt disponible',
-      totalPlots: 220,
-      remainingPlots: 220,
-      percentSold: 0
-    },
-    timing: {
-      launchDate: 'Prévisionnel Janvier 2025',
-      currentPhase: 'Études préliminaires',
-      completionDate: 'Décembre 2027',
-      nextMilestone: 'Ouverture souscriptions: Janvier 2025'
-    },
-    community: {
-      currentMembers: 0,
-      targetMembers: 220,
-      membersSatisfaction: 0,
-      reviewCount: 0,
-      demographics: 'Commerçants, Agriculteurs, Diaspora attendus'
-    },
-    specifications: {
-      totalArea: '55 hectares',
-      plotSizes: ['250m²'],
-      commonAreas: '16 hectares (29% de la superficie totale)',
-      terrainType: 'Terrain légèrement vallonné, accès route nationale'
-    },
-    features: [
-      { name: 'Marché communautaire', icon: <Store />, available: false },
-      { name: 'Entrepôts collectifs', icon: <Home />, available: false },
-      { name: 'Station transport', icon: <Map />, available: false },
-      { name: 'Centre artisanal', icon: <Users />, available: false }
-    ],
-    shortDescription: "Futur programme axé sur l'économie commerciale et l'artisanat. Situé au carrefour des échanges entre le Nord et le Sud du pays.",
-    coverImage: 'https://images.pexels.com/photos/2866079/pexels-photo-2866079.jpeg',
-    images: [
-      'https://images.pexels.com/photos/2866079/pexels-photo-2866079.jpeg',
-      'https://images.pexels.com/photos/3343623/pexels-photo-3343623.jpeg'
-    ],
-    tags: ['Achat Groupé', 'Commercial', 'Artisanat', 'À venir'],
     highlighted: false
   },
  
@@ -366,10 +311,12 @@ const ProgramCard = ({ program, variant = 'default' }) => {
               {(program.price.base / 1000000).toFixed(1)}M FCFA
             </p>
           </div>
+         <a href={`/programme/${program.id}`}>
           <div className="flex items-center text-yellow-600 font-medium">
             <span className="mr-1">Détails</span>
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </div>
+          </a>
         </div>
       </div>
     </div>

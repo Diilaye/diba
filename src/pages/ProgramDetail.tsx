@@ -45,19 +45,19 @@ const ProgramDetail = () => {
 
   // Données des images
   const images = [
-    { url: '/ac1.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac2.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac3.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac4.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac5.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac6.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac7.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac8.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac9.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac10.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac11.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac12.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
-    { url: '/ac13.jpeg', caption: 'Vue principale du site de Loulu Sindiane' },
+    { url: '/ac1.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac2.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac3.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac4.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac5.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac6.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac7.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac8.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac9.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac10.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac11.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac12.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
+    { url: '/ac13.jpeg', caption: 'Vue principale du site de Louly Sindiane' },
     ];
   
   // Vidéo de présentation
@@ -266,7 +266,7 @@ const ProgramDetail = () => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="text-xl font-bold text-gray-900 truncate md:hidden">Sama Achat Groupé - Loulu Sindiane</h1>
+              <h1 className="text-xl font-bold text-gray-900 truncate md:hidden">Sama Achat Groupé - Louly Sindiane</h1>
               <div className="hidden md:block">
                 <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${
                   availablePlots < 20 ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800'
@@ -306,7 +306,7 @@ const ProgramDetail = () => {
               
               <div className="flex items-center text-gray-600 mb-6">
                 <MapPin className="h-5 w-5 mr-2 text-yellow-600" />
-                <span>Loulu Sindiane, Mbour • Sortie péage, à 200m de la route</span>
+                <span>Louly Sindiane, Mbour • Sortie péage, à 200m de la route</span>
               </div>
 
               
@@ -356,7 +356,7 @@ const ProgramDetail = () => {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute bottom-0 left-0 right-0 p-3 bg-black/60 text-white backdrop-blur-sm">
-                    <p className="text-sm">Vidéo de présentation du programme Sama Achat Groupé 3 - Loulu Sindiane</p>
+                    <p className="text-sm">Vidéo de présentation du programme Sama Achat Groupé 3 - Louly Sindiane</p>
                   </div>
                 </div>
               </div>
@@ -405,7 +405,7 @@ const ProgramDetail = () => {
               <h2 className="text-xl font-bold text-gray-900 mb-4">À propos du programme</h2>
               <div className="text-gray-700 space-y-4">
                 <p>
-                  Le programme Sama Achat Groupé à Loulu Sindiane représente l'aboutissement de notre vision d'un habitat harmonieusement intégré dans la prévention des litiges juridiques et la lutte contre la spéculation foncière. Ce projet s'inscrit dans l'économie sociale-solidaire au service des diasporas et compatriotes à faible revenu.
+                  Le programme Sama Achat Groupé à Louly Sindiane représente l'aboutissement de notre vision d'un habitat harmonieusement intégré dans la prévention des litiges juridiques et la lutte contre la spéculation foncière. Ce projet s'inscrit dans l'économie sociale-solidaire au service des diasporas et compatriotes à faible revenu.
                 </p>
                 <p>
                   Notre modèle économique s'appuie sur la sociologie sénégalaise et l'entraide sociale pour encourager l'ancrage territorial. Il promeut l'aménagement de sites ciblés permettant de soutenir l'économie locale et favorise l'inclusion via le logement et la mixité sociale.

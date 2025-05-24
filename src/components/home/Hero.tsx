@@ -9,7 +9,7 @@ const Hero = () => {
   
   // Images des programmes pour le slider
   const sliderImages = [
-    "/achat3.jpeg", // Sama Achat Groupé 3 - Loulu Sindiane
+    "/achat3.jpeg", // Sama Achat Groupé 3 - Louly Sindiane
     "/ac1.jpeg",    // Image programme 1
     "/ac2.jpeg",    // Image programme 2
     "/ac3.jpeg",    // Image programme 3

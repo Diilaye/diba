@@ -206,7 +206,7 @@ const VisionPage = () => {
                   Découvrir nos programmes
                 </a>
                 <a href="/adherer" className="btn-outline-custom">
-                  Comment adhérer
+                Adhérer concept achat groupé
                 </a>
               </div>
             </motion.div>
